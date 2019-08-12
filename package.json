@@ -1,0 +1,28 @@
+{
+	"name": "hdfc-bank-api",
+	"version": "0.0.1",
+	"description": "Unofficial HDFC bank API",
+	"license": "MIT",
+	"repository": "AshikNesin/hdfc-bank-api",
+	"author": {
+		"name": "Ashik Nesin",
+		"email": "mail@ashiknesin.com",
+		"url": "https://ashiknesin.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"chrome-aws-lambda": "^1.19.0"
+	},
+	"devDependencies": {
+		"ow": "^0.12.0"
+	}
+}
