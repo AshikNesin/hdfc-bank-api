@@ -13,6 +13,7 @@ $ npm install hdfc-bank-api
 
 ```js
 const HDFCApi = require('hdfc-bank-api');
+const { HDFC_NETBANKING_USERNAME, HDFC_NETBANKING_PASSWORD } = process.env;
 
 (async () => {
 	const hdfc = new HDFCApi({username:HDFC_NETBANKING_USERNAME,password:HDFC_NETBANKING_PASSWORD});
